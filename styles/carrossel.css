@@ -51,7 +51,7 @@ padding: 1em;
 .descricao__titulo-livro{
     font-weight: 700;
     color: var(--azul);
-    margin: 0.5em 0;
+    margin: 1em 0;
 }
 .descricao__texto{
     font-size: 14px;
@@ -60,4 +60,5 @@ padding: 1em;
 }
 .img__angular{
     padding-bottom: 1em;
+    margin-left: 1em;
 }
