@@ -1,0 +1,44 @@
+.contato {
+    margin: 1em 1em;
+}
+
+.contato__titulo,
+.contato__texto {
+    background: var(--azul-degrade);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+}
+
+.contato.contato__titulo {
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contato__texto {
+    font-size: 13px;
+    font-weight: 300;
+    margin: 1em 0;
+}
+
+.contato__email {
+    font-size: 16px;
+    font-weight: 400;
+    border: 1px solid var(--azul-degrade);
+    border-radius: 24px;
+    width: 90%;
+    color: var(--azul-degrade);
+    padding: 0.5em;
+    
+}
+
+.contato__email::placeholder {
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--azul-degrade);
+    background: url(../img/Email.svg) no-repeat;
+    background-position: 0.5em;
+    padding-left: 2.3em;
+    
+}
