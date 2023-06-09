@@ -59,3 +59,53 @@
 background-clip: text;
 text-transform: uppercase;
 }
+
+.container__titulo {
+    display: none;
+}
+
+.container__lista{
+    display: none;
+}
+
+@media screen and (min-width: 1024px) {
+
+.container__titulo,
+.container__titulo--negrito {
+    color: black;
+    font-family: var(fonte-secundaria);
+    font-size: 30px;
+    
+}
+.container__titulo{
+    font-weight: 400;
+    display: block;
+    
+}
+.container__titulo--negrito {
+    font-weight: 700;
+}
+
+.container__lista {
+    display: flex;
+    justify-content: center
+    
+}
+.container__item {
+    margin: 2em;
+    text-transform: uppercase;
+}
+.container__link {
+    font-family: var(fonte-principal);
+    color: black;
+    font-size: 14px;
+}
+
+.container__imagem--transparente {
+    display: none;
+}
+.cabecalho__menu-hambuguer{
+    display: none;
+}
+
+}
