@@ -5,3 +5,43 @@
     color: #000000;
     margin: 1.5em 1em;
 }
+
+.rodape__lista {
+    display: none;
+}
+
+
+@media screen and (min-width: 1024px) {
+.rodape {
+    display: flex;
+    justify-content: space-around;
+}
+
+.lista__titulo {
+    color: var(--cinza);
+    font-weight: 400;
+    font-size: 14px;
+}
+.lista__comunidade-item,
+.lista__educacao-item {
+    align-items: center;
+    display: flex;
+    margin: 1.5em 0.5em;
+
+}
+
+.rodape__link {
+    text-decoration: none;
+    color: #474646;
+    margin-left: 0.5em;
+}
+
+.rodape__titulo {
+    font-size: 24px;
+    
+}
+
+.rodape__lista {
+    display: block;
+}
+}
