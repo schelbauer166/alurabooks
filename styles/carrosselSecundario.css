@@ -10,3 +10,10 @@
 .card__estrelas {
     margin-bottom: 1em;
 }
+
+@media screen and (min-width: 1728px) {
+    .secundario__titulo{
+        font-size: 32px;
+        
+    }
+}

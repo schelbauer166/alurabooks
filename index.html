@@ -52,8 +52,12 @@
 
             <div class="container">
                 <a href="#"><img src="img/Favoritos.svg" alt="Meus favoritos" class="container__imagem--transparente"></a>
-                <a href="#"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__imagem"></a>
-                <a href="#"><img src="img/Usuário.svg" alt="Meu perfil" class="container__imagem"></a>
+                <a href="#" class="container__link-desk"><img src="img/Compras.svg" alt="Carrinho de compras" class="container__image">
+                    <p class="container__texto">Minha sacola</p>
+                </a>
+                <a href="#" class="container__link-desk"><img src="img/Usuário.svg" alt="Meu perfil" class="container__image">
+                    <p class="container__texto">Meu perfil</p>
+                </a>
             </div>
         </header>
         
@@ -66,6 +70,7 @@
         <section class="carrossel">
             <h2 class="carrossel__titulo">ÚLTIMOS LANÇAMENTOS</h2>
             <!-- Slider main container -->
+            <div class="carrossel__container">
                 <div class="swiper">
                     <!-- Additional required wrapper -->
 
@@ -76,6 +81,8 @@
                     <!-- Slides -->
                     <div class="swiper-slide"><img src="img/ApacheKafka.svg" alt="Livro sobre apache kafka"></div>
                     <div class="swiper-slide"><img src="img/Tuning.svg" alt="Livro sobre tuning"></div>
+                    <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro sobre NodeJS"></div>
+                    <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro sobre NodeJS"></div>
                     <div class="swiper-slide"><img src="img/Nodejs.svg" alt="Livro sobre NodeJS"></div>
                     <div class="swiper-slide"><img src="img/Javascript.svg" alt="Livro sobre JavaScript"></div>
                     <div class="swiper-slide"><img src="img/Construct2.svg" alt="Livro sobre Construct2"></div>
@@ -109,12 +116,13 @@
 
 
                 </div>
+            </div>
 
         </section>
 
         <section class="carrossel secundario">
             <h2 class="secundario__titulo">mais vendidos</h2>
-
+            <div class="carrossel__container">
             <div class="swiper">
                 <!-- Additional required wrapper -->
 
@@ -166,7 +174,7 @@
 
             </div>
 
-
+        </div>
 
         </section>
 
